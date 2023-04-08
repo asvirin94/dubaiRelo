@@ -160,3 +160,15 @@
 .feature-active h4, .feature-active p  {
     color:#fff
 }
+
+.gift {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 230px;
+}
+
+.gift img {
+    width: 645px;
+    height: 645px;
+}
