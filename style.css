@@ -4,6 +4,21 @@
     box-sizing: content-box;
 }
 
+.invisible {
+    position: absolute;
+    visibility: hidden;
+    top: 0px;
+    left: -9999px;
+}
+
+.strange-button {
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #37806B;
+    cursor: pointer;
+}
+
 .body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -13,7 +28,7 @@
 }
 .container {
     margin: 0 auto;
-    max-width: 1240px;
+    max-width: 1260px;
 }
 
 .header {
@@ -35,4 +50,54 @@
     line-height: 21.8px;
     color: #212121;
     text-decoration: none;
+}
+
+.little-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #646464;
+}
+
+.large-title {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.resident {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 122px;
+}
+.resident-info__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #646464;
+}
+
+.resident-info__button {
+    padding: 14px 23px;
+
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.little-title {
+    margin-bottom: 11px;
+}
+
+.large-title {
+    margin-bottom: 22px;
+}
+
+.resident-info__text {
+    margin-bottom: 55px;
+}
+.resident-img {
+    width: 676px;
+    height: 562px;
 }
