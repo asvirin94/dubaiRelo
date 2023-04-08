@@ -16,6 +16,11 @@
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.strange-button:hover {
+    transform: scale(1.1);
 }
 
 .body {
@@ -49,6 +54,12 @@
     line-height: 21.8px;
     color: #212121;
     text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.header-menu__button:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
 }
 
 .little-title {
@@ -292,4 +303,25 @@
     position: absolute;
     left: 90px;
     bottom: 86px
+  }
+
+  .profit {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .profit h2 {
+    font-size: 45px;
+    font-weight: 400;
+    color: #212121;
+  }
+
+  .profit-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .profit-container .feature {
+    margin-top: 82px;
   }
