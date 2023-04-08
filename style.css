@@ -172,3 +172,27 @@
     width: 645px;
     height: 645px;
 }
+
+.experience {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 220px;
+}
+
+.experience p {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 65px;
+    letter-spacing: 0.04em;
+    text-align: left;
+}
+
+.experience div + img {
+    width: 641px;
+    height: 641px;
+}
+
+.experience button {
+    margin-top: 17px;
+}
