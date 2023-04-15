@@ -16,13 +16,13 @@
             <img src="./img/logo.jpg" alt="logo">
         </div>
         <div class='header-menu'>
-            <a href="" class="header-menu__button">Emirates ID</a>
-            <a href="" class="header-menu__button">Услуги</a>
-            <a href="" class="header-menu__button">О нас</a>
-            <a href="" class="header-menu__button">Резидентство</a>
-            <a href="" class="header-menu__button">Запись</a>
-            <a href="" class="header-menu__button">Контакты</a>
-            <a href="" class="header-menu__button">Связаться</a>
+            <a href="#" class="header-menu__button">Emirates ID</a>
+            <a href="#2" class="header-menu__button">Услуги</a>
+            <a href="#3" class="header-menu__button">О нас</a>
+            <a href="#4" class="header-menu__button">Резидентство</a>
+            <a href="#5" class="header-menu__button">Запись</a>
+            <a href="#6" class="header-menu__button">Контакты</a>
+            <a href="https://t.me/durov" target="_blank" class="header-menu__button">Связаться</a>
         </div>
     </section>
 
@@ -43,8 +43,8 @@
         
     </section>
 
-    <section class="features container">
-        <h2 class="little-title">Что входит в услугу?</h2>
+    <section class="features container" id="2">
+        <h2 class="little-title" id="1">Что входит в услугу?</h2>
         <h3 class="features-title large-title">Наш сервис</h3>
         <div class="features-container">
             <div class="feature">
@@ -93,7 +93,7 @@
         </div>
     </section>
 
-    <section class="experience container">
+    <section class="experience container" id="3">
         <div>
             <img src="./img/10.jpg" alt="">
             <p class="title">Лет успешно помогаем:<br>
@@ -130,7 +130,7 @@
         </div>
     </section>
 
-    <section class="profit container">
+    <section class="profit container" id="4">
         <h2 class="title">Что дает статус резидента?</h2>
         <div class="profit-container">
             <div class="feature">
@@ -208,38 +208,38 @@
                         консультацию, по будням<br>
                          с 10:00 до 20:00 по мск<br>
                         </p>
-                    <a href="">Связаться Telegram</a>
+                    <a href="https://t.me/durov" target="_blank">Связаться Telegram</a>
                 </div>
                 <div class="block">
                     <img src="./img/Group 94.jpg" alt="">
                     <p class="title">Фиксированная цена, без изменений,<br>
                         включает в себя все пошлины <br>
                         и налоги в гос.органы РФ и ОАЭ</p>
-                    <a href="">Связаться Whatsapp</a>
+                    <a href="https://t.me/durov" target="_blank">Связаться Whatsapp</a>
                 </div>
             </div>
         </div>   
     </section>
 
-    <section class="contact-us container">
+    <section class="contact-us container" id="5">
         <h2 class="title">Мы с вами свяжемся</h2>
         <div class="grey-line"></div>
         <p>Оставьте свои контактные данные, и мы свяжемся с вами в ближайшее время</p>
-        <form action="">
-            <input type="text" placeholder="Ваш номер телефона или почтовый ящик....">
+        <form action="https://formspree.io/f/xqkogoav" method="post">
+            <input type="text" placeholder="Ваш номер телефона или почтовый ящик...." name='user-info' required>
             <button type="submit">Свяжитесь со мной</button>
         </form>       
     </section>
 
-    <footer>
+    <footer id="6">
         <div class="container">
             <div class="contacts">
                 <div class="social-contacts">
                     <span>Contacts</span>
-                    <button type="button">
+                    <button type="button" class="tg-icon">
                         <img src="./img/12.svg" alt="">
                     </button>
-                    <button type="button">
+                    <button type="button" class="wa-icon">
                         <img src="./img/wa.svg" alt="">
                     </button>
                 </div>
@@ -248,5 +248,6 @@
             </div>
         </div>
     </footer>
+    <script src="./main.js"></script>
 </body>
 </html>

@@ -4,6 +4,10 @@
     box-sizing: content-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .invisible {
     position: absolute;
     visibility: hidden;
