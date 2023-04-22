@@ -447,6 +447,7 @@ footer p {
 @media (max-width: 1280px) {
     .container {
         max-width: 360px;
+        margin: 0 auto;
     }
 
     .header {
