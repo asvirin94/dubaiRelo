@@ -492,6 +492,7 @@ footer p {
 
     .feature {
         max-width: 360px;
+        margin-top: 20px;
     }
 
     .feature img {
@@ -551,12 +552,12 @@ footer p {
         margin-top: 30px;
     }
 
-    .stat-element {
-        margin-top: 20px;
-    }
-
     .element-low {
         margin-top: 0;
+    }
+
+    .stat-element {
+        margin-top: 20px;
     }
 
     .profit {
@@ -586,7 +587,8 @@ footer p {
     }
 
     .block img {
-        scale: 0.5
+        width: 270px;
+        height: 224px;
     }
 
     .block {
