@@ -460,7 +460,8 @@ footer p {
     }
     .header-menu__button {
         font-size: 10px;
-        font-weight: 400;
+        font-weight: 700;
+        text-decoration: underline;
     }
 
     .resident {
@@ -500,7 +501,8 @@ footer p {
     }
 
     .gift img {
-        scale: 0.35;
+        width: 270px;
+        height: 224px;
     }
 
     .gift {
