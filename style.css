@@ -470,7 +470,8 @@ footer p {
     }
 
     .resident img {
-        scale: 0.35
+        width: 338px;
+        height: 281px;
     }
 
     .resident-info {
@@ -514,7 +515,8 @@ footer p {
     }
 
     .experience img {
-        scale: 0.35;
+        width: 338px;
+        height: 281px;
     }
 
     .experience {
