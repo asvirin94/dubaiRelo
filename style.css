@@ -93,6 +93,10 @@ html {
     color: #646464;
 }
 
+.resident-info {
+    max-width: 535px;
+}
+
 .resident-info__button {
     padding: 14px 23px;
     background-color: #37806B;
@@ -301,6 +305,7 @@ html {
     display: flex;
     justify-content: space-between;
     margin-top: 81px;
+    width: 100%;
 }
 
 .blocks-container img {
@@ -308,10 +313,11 @@ html {
 }
 
 .block {
-display: flex;
-flex-direction: column;
-justify-content: baseline;
-gap: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    gap: 35px;
+    max-width: 580px;
 }
 
 .block p {
