@@ -616,13 +616,26 @@ footer p {
 
     .grey-line {
         width: 340px;
+        margin-top: 20px;
+    }
+
+    .contact-us p {
+        margin-top: 20px;
+    }
+
+    .contact-us form {
+        margin-top: 20px;
     }
 
     .contact-us input[type=text] {
-        width: 220px
+        width: 220px;
     }
 
     .contact-us button {
         width: 100px;
+    }
+
+    .contacts {
+        align-items: flex-end;
     }
 }
